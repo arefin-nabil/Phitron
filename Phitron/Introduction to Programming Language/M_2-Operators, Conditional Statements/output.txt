@@ -1,0 +1,5 @@
+Summation of 17 and 5 is = 22
+Subtraction of 17 and 5 is = 12
+Multiplication of 17 and 5 is = 85
+Division of 17 and 5 is = 3
+Remainder of 17 and 5 is = 2

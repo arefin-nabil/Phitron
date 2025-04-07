@@ -52,12 +52,3 @@ int main()
     return 0;
 }
 
-
-#include<stdio.h>
-int main()
-{
-    int num1,num2;
-    scanf("First num = %d Second num is = %d", num1, num2);
-    printf("Second num = %d and First num is = %d", num2, num1);
-    return 0;
-}

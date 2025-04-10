@@ -80,8 +80,8 @@
 //     char D;
 //     scanf("%d", &A);
 //     scanf("%lld", &B);
-//     scanf("%f\n", &C);
-//     scanf("%c", &D);
+//     scanf("%f", &C);
+//     scanf(" %c", &D);
 //     printf("%d\n", A);
 //     printf("%lld\n", B);
 //     printf("%.2f\n", C);
@@ -120,3 +120,46 @@
 //     }
 //     return 0;
 // }
+
+
+
+
+// Pattern 1
+
+// #include<stdio.h>
+// int main ()
+// {
+//     int n;
+//     scanf ("%d", &n);
+//     for (int i = 1; i<=n; i++)
+//     {
+//         for (int j=1; j<=i; j++)
+//         {
+//             printf("%d ", j);
+//         }
+//         printf("\n");
+//     }
+//     return 0;
+// }
+
+
+
+
+// Pattern 2
+
+#include<stdio.h>
+int main ()
+{
+    int n;
+    scanf ("%d", &n);
+    for (int i = 1; i<=n; i=i+2)
+    {
+        for (int j = 1; j<=1; j=j+2)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}

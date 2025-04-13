@@ -75,7 +75,7 @@ int main ()
         printf("I will buy Punjabi\n");
         if (n-1000>=500)
         {
-            printf("I will buy new shoes\nAlisa will buy new shoes\n");
+            printf("I will buy new shoes\nAlisa will buy new shoes");
         }
     } 
     else printf("Bad luck!");

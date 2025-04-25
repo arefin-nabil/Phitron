@@ -8,9 +8,8 @@ int main()
     scanf("%s", &b);
 
     printf("%d %d\n", strlen(a), strlen(b));
-    printf("%s\n", strcat(a, b));
+    printf("%s%s\n", a, b);
 
-    
     char temp;
 
     temp = a[0];

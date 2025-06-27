@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "stdio.h": "c",
-        "crtdefs.h": "c",
-        "_mingw.h": "c",
-        "_mingw_mac.h": "c"
-    }
-}

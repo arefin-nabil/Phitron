@@ -15,6 +15,5 @@ int main()
         cout << " : " << freq[j] << endl;
     }
 
-
     return 0;
 }

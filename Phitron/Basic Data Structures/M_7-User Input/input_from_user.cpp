@@ -13,7 +13,7 @@ public:
     }
 };
 
-void insert_at_head(Node *&head, Node *&tail, int val)
+void insert_at_tail(Node *&head, Node *&tail, int val)
 {
     Node *newnode = new Node(val);
     if (head == NULL)
@@ -22,11 +22,12 @@ void insert_at_head(Node *&head, Node *&tail, int val)
         tail = newnode;
         return;
     }
-    newnode->next = head;
-    head = newnode;
+    tail->next = newnode;
+    tail = newnode;
 }
 
-void print_it(Node* head)
+
+void print_it(Node *head)
 {
     Node *temp = head;
     while (temp != NULL)
@@ -38,20 +39,20 @@ void print_it(Node* head)
 
 int main()
 {
-    Node *head = new Node(10);
-    Node *a = new Node(20);
-    Node *b = new Node(30);
-    Node *c = new Node(40);
-    Node *d = new Node(50);
-    Node *tail = new Node(50);
+    
+    Node *head = NULL;
+    Node *tail = NULL;
 
-    head->next = a;
-    a->next = b;
-    b->next = c;
-    c->next = d;
+    int x;
+    while(1)
+    {
+        cin >> x;
+        if(x == -1)
+            break;
+        insert_at_tail(head, tail, x);
+    }
 
-    insert_at_head(head, tail, 1001);
-    insert_at_head(head, tail, 5);
+    
     print_it(head);
 
     return 0;

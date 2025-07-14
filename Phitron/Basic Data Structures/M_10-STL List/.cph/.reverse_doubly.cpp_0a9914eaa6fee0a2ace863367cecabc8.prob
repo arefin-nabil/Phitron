@@ -1,0 +1,1 @@
+{"name":"Local: reverse_doubly","url":"c:\\PHITRON\\Phitron\\Basic Data Structures\\M_10-STL List\\reverse_doubly.cpp","tests":[{"id":1752510085242,"input":"10 20 56 30 44 100 -1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PHITRON\\Phitron\\Basic Data Structures\\M_10-STL List\\reverse_doubly.cpp","group":"local","local":true}

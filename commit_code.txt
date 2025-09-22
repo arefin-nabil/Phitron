@@ -13,3 +13,14 @@ line
 rest two lines have to use.
 
 Hi, this is demo text for my repo.
+
+
+Conceptual
+https://github.com/phitronio/Conceptual-Sessions-Code/tree/main/Batch%207
+
+Data Structure
+https://github.com/phitronio/Batch-7-cpp-for-dsa
+
+Algorithm
+https://github.com/phitronio/Batch-7-Introduction-to-Algorithms
+
